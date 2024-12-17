@@ -18,13 +18,8 @@ if (-Not (Test-Path $buildDir)) {
     exit 1
 }
 
-$branchExists = git branch --list $publishBranch
-if ($branchExists) {
-    git checkout $publishBranch
-} else {
-    git checkout --orphan $publishBranch
-    git rm -rf .
-}
+git checkout $publishBranch
+
 
 Copy-Item -Path "$buildDir\*" -Destination $bookDir -Recurse -Force
 
