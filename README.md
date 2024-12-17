@@ -1,6 +1,6 @@
 ### publish Github Pages
 
-1. use `.\publish.ps1`
+1. use `.\deploy.sh`
 
 2. use shell
 
