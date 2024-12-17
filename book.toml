@@ -3,4 +3,12 @@ authors = ["nia"]
 language = "zh-CN"
 multilingual = false
 src = "src"
-title = "nia's blogs"
+title = "no title"
+
+[output.html.playground]
+editable = true
+copyable = true
+
+[output.html]
+git-repository-url = "https://github.com/0125nia/nia.github.io"
+edit-url-template = "https://github.com/0125nia/nia.github.io/edit/main/{path}"
