@@ -57,7 +57,7 @@ I'll split them into multiple files later...
 
 ### Markdown editor
 
-##### (Obsidian)[https://obsidian.md/]
+##### [Obsidian](https://obsidian.md/)
 
 - [surfing](https://github.com/PKM-er/Obsidian-Surfing)
 
