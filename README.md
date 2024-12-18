@@ -1,8 +1,6 @@
 ### publish Github Pages
 
-1. use `.\deploy.sh`
-
-2. use shell
+1. use shell
 
 ```shell
 git checkout --orphan gh-pages
