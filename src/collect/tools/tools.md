@@ -1,4 +1,4 @@
-# collect
+# tools
 
 Keep all the tools in this file for now
 I'll split them into multiple files later...
@@ -34,6 +34,8 @@ I'll split them into multiple files later...
 - [flash-switcher](https://github.com/codeartx/flash-switcher)
 
 ### some website
+
+- [chatgpt](https://chatgpt.com/)
 
 - [github](https://github.com/)
 

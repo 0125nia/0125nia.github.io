@@ -6,8 +6,14 @@
 
 ---
 
-- [tool](./collect/tool.md)
-  - [provisional summary](./collect/tools.md)
+- [tool](./collect/tools/intro.md)
+  - [provisional summary](./collect/tools/tools.md)
+
+# rust
+
+---
+
+- [about rust](./rust/intro.md)
 
 # test
 

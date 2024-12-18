@@ -12,3 +12,5 @@ copyable = true
 [output.html]
 git-repository-url = "https://github.com/0125nia/nia.github.io"
 edit-url-template = "https://github.com/0125nia/nia.github.io/edit/main/{path}"
+fold = { enable = true, level = 1 }
+highlight = { theme = "github" }
