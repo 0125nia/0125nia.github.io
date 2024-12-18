@@ -2,9 +2,9 @@
 
 [This is not a fun book](./top.md)
 
-# collect
-
 ---
+
+# collect
 
 - [collect](./collect/intro.md)
 
@@ -20,15 +20,11 @@
 
 # rust
 
----
-
-[about rust](./rust/intro.md)
+- [about rust](./rust/intro.md)
 
 # test
 
----
-
-[code_test](./test/code_test.md)
+- [code_test](./test/code_test.md)
 
 ---
 
