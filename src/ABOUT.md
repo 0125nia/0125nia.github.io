@@ -17,6 +17,7 @@ I will enhance my English proficiency and perfect this book.
 ### Why have this
 
 Just because I need a place to write something down.
+And I need to collect something in one place.
 
 And I accidentally discovered that [mdbook](https://github.com/rust-lang/mdBook) is very helpful for deploying pages, especially for someone like me who isn't good at front-end development, when I started learning Rust.
 
