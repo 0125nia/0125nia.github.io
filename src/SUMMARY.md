@@ -22,6 +22,11 @@
 
 - [about rust](./rust/intro.md)
 
+# note
+
+- [note](./note/intro.md)
+  - [SJF/STCP vs RR](./note/SJF_STCF_vs_RR.md)
+
 # test
 
 - [code_test](./test/code_test.md)
