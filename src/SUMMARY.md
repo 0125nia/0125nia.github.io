@@ -25,7 +25,7 @@
 # note
 
 - [note](./note/intro.md)
-  - [SJF/STCP vs RR](./note/SJF_STCF_vs_RR.md)
+  - [调度策略 SJF、STCF、RR](./note/SJF_STCF_vs_RR.md)
 
 # test
 

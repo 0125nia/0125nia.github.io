@@ -1,4 +1,4 @@
 # 博弈论
 
-https://ncase.me/trust/
-https://dccxi.com/trust/
+en: https://ncase.me/trust/
+cn: ttps://dccxi.com/trust/
