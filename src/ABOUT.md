@@ -24,3 +24,18 @@ And I accidentally discovered that [mdbook](https://github.com/rust-lang/mdBook)
 There's gonna be all kinds of stuff about me.
 Feel free to check it out if you're interested.
 If you have any questions, please give me an issue.
+
+---
+
+<br>
+<div>
+<a href="https://github.com/0125nia">
+    <img src="./attachment/github-mark-white.svg" alt="GitHub" width="25" style="height: auto;">
+</a>&nbsp
+<a href="https://juejin.cn/user/3987308744025273">
+<img src="./attachment/juejin.png" alt="juejin" width="25" style="height: auto;" >
+</a>
+
+<em style="color: #808090">You can contact me by email: nia220125@163.com</em>
+
+</div>

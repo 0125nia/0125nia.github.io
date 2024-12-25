@@ -29,7 +29,7 @@
 
 但仍然有不适用的情况，我们这里引用[OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)的例子
 
-![alt text](/attachment/SJF_flaw.png)
+![alt text](./../attachment/SJF_flaw.png)
 
 也就是说，如果周转时间为 100s 的 A 任务在 0s 时到达并执行，而当 A 任务执行到 10s 时又有周转时间均为 10s 的 B 任务与 C 任务到达，如果是 SJF 策略的话，B 与 C 需要等待 A 任务执行完毕之后，才开始执行，此时 B 与 C 任务的周转时间就大大提高了，这并不是我们预期的结果
 
