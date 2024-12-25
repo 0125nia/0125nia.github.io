@@ -25,3 +25,31 @@
 ### efficiency
 
 - [PowerToys](https://github.com/microsoft/PowerToys)
+
+### pdf
+
+- [pdfarranger](https://github.com/pdfarranger/pdfarranger)
+  使用交互式直观的图形界面合并或拆分 PDF 文档并旋转、裁剪和重新排列页面
+
+- [mdbook-pdf](https://github.com/HollowMan6/mdbook-pdf)
+  将 mdbook 转为 pdf (我似乎没有找到添加封面的功能)
+  需要 rust 环境以及安装 mdbook
+
+  ```shell
+    cargo install mdbook-pdf
+  ```
+
+  在`book.toml`中添加一下内容，运行`mdbook build`即可生成 pdf，详情查看官方文档
+
+  ```toml
+    [output.html]
+
+    [output.pdf]
+  ```
+
+  添加目录的话可以通过`pip install mdbook-pdf-outline`安装并在`book.toml`中添加以下内容：
+
+  ```toml
+    [output.pdf-outline]
+    like-wkhtmltopdf = true
+  ```
