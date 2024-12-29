@@ -1,6 +1,8 @@
 # Code Test Playground
 
-> test your rust any time.
+> test your rust code any time.
+>
+> run by ctrl + enter
 
 ```rust,editable
 # #![allow(unused)]
