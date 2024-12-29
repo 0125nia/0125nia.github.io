@@ -22,9 +22,17 @@
 
 - [deepl](https://www.deepl.com/zh/translator)
 
+- [网易有道词典](https://fanyi.youdao.com/)
+
 ### efficiency
 
 - [PowerToys](https://github.com/microsoft/PowerToys)
+
+- [LocalSend](https://localsend.org/)
+
+- [listary](https://www.listary.com/)
+
+- [utools](https://www.u.tools/)
 
 ### pdf
 

@@ -12,7 +12,6 @@
   - [useful](./collect/useful.md)
   - [extension](./collect/extension.md)
   - [note](./collect/note.md)
-  - [job](./collect/job.md)
   - [something fun](./collect/something_fun.md)
 
 - [resource](./resource/intro.md)

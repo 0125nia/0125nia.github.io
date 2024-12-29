@@ -21,3 +21,9 @@
 - [十年学会编程 Teach Yourself Programming in Ten Years (Translation in Chinese)](https://dccxi.com/posts/21-days/)
 
 ![computer_operate_time](./../attachment/computer_operate_time.png)
+
+## beautify
+
+- [lively Wallpaper](https://www.rocksdanister.com/lively/)
+
+- [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
