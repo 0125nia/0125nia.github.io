@@ -7,6 +7,6 @@ git checkout --orphan gh-pages
 git rm -rf .
 cp -r book/* .
 git add .
-git commit -m "发布 GitHub Pages"
+git commit -m "publish GitHub Pages"
 git push origin gh-pages --force
 ```
