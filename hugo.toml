@@ -7,7 +7,7 @@ pygmentsStyle = "monokai"
 
 
 [params]
-avatarURL = "/static/avatar.webp"
+avatarURL = "/avatar.webp"
 accentColor = "#FF4D4D"
 avatarSize = "size-m"
 description = "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué."

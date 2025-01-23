@@ -1,7 +1,5 @@
 ### publish Github Pages
 
-1. use shell
-
 ```shell
 git checkout --orphan gh-pages
 git rm -rf .
