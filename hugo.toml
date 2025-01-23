@@ -1,0 +1,56 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'zh-cn'
+title = 'nia'
+theme = "gokarna"
+enableEmoji = true
+pygmentsStyle = "monokai"
+
+
+[params]
+avatarURL = "/static/avatar.webp"
+accentColor = "#FF4D4D"
+avatarSize = "size-m"
+description = "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué."
+footer = "nia"
+[menu]
+[[menu.main]]
+# Display name
+name = "Posts"
+
+# Relative URL slug (appended to baseURL)
+url = "/posts/"
+
+# Lower weights are listed first in the menu (leftmost); higher weights are
+# listed last in the menu (rightmost)
+weight = 1
+pre = "<span data-feather='book'></span>"
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 2
+pre = "<span data-feather='tag'></span>"
+
+[[menu.main]]
+# Unique identifiers are required for menu entries without a name property,
+# or for menu entries which re-use a name
+identifier = "github"
+
+# Absolute URL to external resource
+url = "https://github.com/0125nia"
+weight = 3
+
+# Surround the menu entry (or name) with HTML content, such as Feather
+# icons: https://feathericons.com
+pre = "<span data-feather='github'></span>"
+post = ""
+
+[[menu.main]]
+
+identifier = "juejin"
+weight = 4
+url = "https://juejin.cn/user/3987308744025273"
+pre = "<span data-feather='juejin'></span>"
+post = ""
+[minify]
+minifyOutput = true
