@@ -32,10 +32,7 @@ There's gonna be all kinds of stuff about me.
 Feel free to check it out if you're interested.
 
 
-此事未终，尚有未尽之机
-
-**如欲更知，敬请参阅**
-
+[![](/img/hide/hide.png)](./toc)
 
 ---
 *Laissez tout se produire*
