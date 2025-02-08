@@ -1,0 +1,16 @@
+<div style="display: inline-block; padding: 10px;">
+    {{ $img := .Params.src }}
+    {{ $link := .Params.href }}
+    {{ $text := .Params.text }}
+
+    {{ if and $img $link }}
+    <a href=" {{ $link }}" target="_blank">
+        <img src="{{ $img }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10px;">
+    </a>
+    {{ else if $img }}
+    <img src="{{ $img }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10px;">
+    {{ end }}
+    {{ if $text }}
+    <p style="text-align: center; margin-top: 5px; font-size: 14px;">{{ $text }}</p>
+    {{ end }}
+</div>
