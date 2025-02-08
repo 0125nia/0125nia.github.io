@@ -23,7 +23,19 @@ I find them very enjoyable and relaxing to use.
   
   Concise, consistent, and legible badges
   
-  ![Static Badge](https://img.shields.io/badge/go-1.22.5-blue)
+<div align="center">
+
+![Static Badge](https://img.shields.io/badge/ubuntu-22.04-red?style=flat)
+![Static Badge](https://img.shields.io/badge/go-1.22.5-blue?style=flat)
+![Static Badge](https://img.shields.io/badge/gin-v1.10.0-8A2BE2?style=flat)
+![Static Badge](https://img.shields.io/badge/viper-v1.19.0-cyan?style=flat)
+
+![Static Badge](https://img.shields.io/badge/gorm-v1.25.12-indigo?style=flat)
+![Static Badge](https://img.shields.io/badge/mysql-latest-green?style=flat)
+![Static Badge](https://img.shields.io/badge/redis-latest-default?style=flat)
+![Static Badge](https://img.shields.io/badge/build-docker-yellow?style=flat)
+
+</div>
 
   ![shields](/img/hide/shields.io.png)
 
