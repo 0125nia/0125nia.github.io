@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go on nia</title><link>https://0125nia.github.io/tags/go/</link><description>Recent content in Go on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>快速入门Cobra - 强大的Go语言命令行构建框架</title><link>https://0125nia.github.io/posts/cobra/</link><pubDate>Fri, 03 May 2024 23:16:15 +0800</pubDate><guid>https://0125nia.github.io/posts/cobra/</guid><description>&lt;h3 id="cobra-介绍">Cobra 介绍&lt;/h3>
+&lt;p>Cobra 是一个 Go 语言开发的命令行（CLI）框架，提供了简单的接口来构建命令行界面，Cobra 允许轻松地定义命令和子命令结构。被用在很多 Go 语言的项目中，比如我们熟知的 K8s、Docker 等等&lt;/p>
+&lt;p>Cobra 在我的项目中作为命令行解析层，接触到这个命令行框架，了解到 Cobra 的强大功能，故在此进行记录&lt;/p>
+&lt;p>附上 Cobra 的&lt;a href="https://github.com/spf13/cobra">项目地址&lt;/a>以及&lt;a href="https://cobra.dev">开发网站&lt;/a>&lt;/p>
+&lt;h3 id="cobra-概念">Cobra 概念&lt;/h3>
+&lt;p>Cobra 是基于命令 &lt;code>commands&lt;/code> 、参数 &lt;code>arguments&lt;/code> 、选项 &lt;code>flags&lt;/code> 三个部分构建的&lt;/p>
+&lt;p>要遵循的模式是 &lt;code>APPNAME VERB NOUN --ADJECTIVE.&lt;/code> 或 &lt;code>APPNAME COMMAND ARG --FLAG&lt;/code>&lt;/p>
+&lt;p>（&lt;em>应用名称 动词 名词 &amp;ndash;形容词&lt;/em> 或 &lt;em>应用名称 命令 参数 &amp;ndash;标志&lt;/em>）&lt;/p>
+&lt;h5 id="appname">appname&lt;/h5>
+&lt;p>应用程序的名称，标识要运行的程序或工具。例如，&lt;code>git&lt;/code>、&lt;code>curl&lt;/code>、&lt;code>docker&lt;/code>等&lt;/p>
+&lt;h5 id="commands">commands&lt;/h5>
+&lt;p>描述了要执行的操作类型。它通常代表了一个功能或者动作，在某些 CLI 设计中，这部分可能直接就是一个具体操作的名称，如&lt;code>pull&lt;/code>、&lt;code>push&lt;/code>。&lt;/p>
+&lt;h5 id="arguments">arguments&lt;/h5>
+&lt;p>名词或参数，提供了动词作用的对象或者是更具体的上下文信息。例如：&lt;code>go build main.go&lt;/code>,
+这个命令的&lt;code>go&lt;/code>是应用程序名称（appname），&lt;code>build&lt;/code>是操作类型（commands），而&lt;code>main.go&lt;/code>就是&lt;code>build&lt;/code>作用的对象&lt;/p>
+&lt;h5 id="flags">flags&lt;/h5>
+&lt;p>命令行标志或选项，用来修改命令的行为或提供额外的配置信息。通常以两个连字符&lt;code>--&lt;/code>开头，后面跟着标志名称。在某些情况下，如短选项，也可能只有一个连字符和一个字母&lt;/p>
+&lt;p>&lt;strong>示例：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>git commit -m &amp;quot;Initial commit&amp;quot;&lt;/code>：这里&lt;code>git&lt;/code>是应用程序名称，&lt;code>commit&lt;/code>是命令，&lt;code>-m&lt;/code>是一个标志，后面跟着的 &lt;code>&amp;quot;Initial commit&amp;quot;&lt;/code> 是该标志的值，作为提交信息。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>hugo server --port=1313&lt;/code>：&lt;code>hugo&lt;/code>为应用程序名称，&lt;code>server&lt;/code>是命令，&lt;code>port&lt;/code>是标志&lt;/p></description></item></channel></rss>

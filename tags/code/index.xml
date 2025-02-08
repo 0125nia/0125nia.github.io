@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on nia</title><link>https://0125nia.github.io/tags/code/</link><description>Recent content in Code on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/tags/code/index.xml" rel="self" type="application/rss+xml"/><item><title>关于过度开发的思考</title><link>https://0125nia.github.io/posts/excessive_development/</link><pubDate>Wed, 25 Dec 2024 23:54:24 +0800</pubDate><guid>https://0125nia.github.io/posts/excessive_development/</guid><description>&lt;ul>
+&lt;li>数据结构和算法 ——应对——&amp;gt; 大数据量问题&lt;/li>
+&lt;li>设计模式和代码设计 ——应对——&amp;gt; 复杂代码问题&lt;/li>
+&lt;/ul>
+&lt;h3 id="避免过度设计">避免过度设计&lt;/h3>
+&lt;ul>
+&lt;li>不要为了炫技而使用设计模式 不要为了应用而应用 学习阶段的练习除外&lt;/li>
+&lt;li>不以破坏代码可读性为前提&lt;/li>
+&lt;li>不要为了短期不存在的扩展而费神&lt;/li>
+&lt;li>持续重构优于提前设计，一开始就追求完美代码往往不会得到预期的结果&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>YAGNI(You Aren&amp;rsquo;t Gonna Need It)原则
+极限编程（XP）中的一项核心实践，它告诫开发者只实现当前需要的功能，避免过度设计和提前优化。这个原则帮助团队集中精力解决实际问题，而不是预测未来可能的需求。&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

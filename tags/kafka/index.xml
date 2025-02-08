@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kafka on nia</title><link>https://0125nia.github.io/tags/kafka/</link><description>Recent content in Kafka on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/tags/kafka/index.xml" rel="self" type="application/rss+xml"/><item><title>Kafka 消费者架构的优化，动态工厂的实践</title><link>https://0125nia.github.io/posts/kafka_consumer/</link><pubDate>Thu, 03 Oct 2024 23:28:13 +0800</pubDate><guid>https://0125nia.github.io/posts/kafka_consumer/</guid><description>&lt;h2 id="为什么使用消费者组">为什么使用消费者组&lt;/h2>
+&lt;h4 id="负载均衡">负载均衡&lt;/h4>
+&lt;ul>
+&lt;li>消费者组机制可以将一个主题的消息负载均衡到多个消费者实例上，提高了整体系统的吞吐量和扩展性&lt;/li>
+&lt;li>当有新的消费者加入或退出组时，kafka 都会自动触发平衡机制，确保分区保持合理分配&lt;/li>
+&lt;/ul>
+&lt;h4 id="状态隔离">状态隔离&lt;/h4>
+&lt;ul>
+&lt;li>每个消费者组都有自己独立的消费位移（offset），互不干扰，这确保了不同业务场景的状态隔离，提高了系统的可维护性及可靠性&lt;/li>
+&lt;li>可针对不同的业务需求，创建独立的消费组，实现更合理或更符合业务需求的状态管理&lt;/li>
+&lt;/ul>
+&lt;p>通过消费者组，Kafka 可以实现消息的负载均衡和消费者的水平扩展，从而处理大规模的实时数据流和实现高吞吐量的消息处理。&lt;/p>
+&lt;h2 id="配置消费者组的传统方式">配置消费者组的传统方式&lt;/h2>
+&lt;ol>
+&lt;li>在配置文件中硬编码 group-id&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-properties" data-lang="properties">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">spring.kafka.consumer.group-id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">my-group&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>在消费者类中使用 Spring kafka 提供的&lt;code>@KafkaListener&lt;/code>注解:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">@KafkaListener&lt;/span>(topic &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;my-topic&amp;#34;&lt;/span>, groupId &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;my-group&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">consume&lt;/span>(String message){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#75715e">//处理消息逻辑&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>此处的&lt;code>groupId&lt;/code>即以上在配置文件中配置的消费者组 id&lt;/p>
+&lt;h2 id="存在的问题">存在的问题&lt;/h2>
+&lt;ol>
+&lt;li>配置方式：在应用程序的配置文件中，需要&lt;strong>手动&lt;/strong>指定 Kafka 消费者组的 id。但当我们需要配置&lt;strong>多个&lt;/strong>消费者组或消费者组的数量无法在应用程序运行前知晓时，此时便陷入了困境。&lt;/li>
+&lt;li>扩展性：如果需要动态扩展应用程序的消费者实例数量，又需要我们手动修改配置，增加了复杂度。&lt;/li>
+&lt;li>资源竞争：如若我们只使用一个或少量的消费者组，多个应用实例同时使用了相同的消费者消费者组 id，他们可能会争抢同一批分区，可能会导致资源竞争和状态干扰&lt;/li>
+&lt;/ol>
+&lt;p>Kafka 的消费者组机制是非常重要的组成部分，但其传统的配置方式存在一些局限性，这就需要我们找寻更为灵活可靠的方式来配置多个消费者组。&lt;/p></description></item></channel></rss>
