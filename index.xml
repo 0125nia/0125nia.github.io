@@ -61,9 +61,21 @@
  &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">teach rs&lt;/p>
  
 &lt;/div>
-&lt;p>&lt;a href="https://suibianxiedianer.github.io/rust-cli-book-zh_CN/">Rust 中的命令行应用&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>You can learn more in &lt;a href="https://www.rust-lang.org/">official website&lt;/a> or &lt;a href="https://github.com/rust-lang/rust">github&lt;/a>&lt;/em>&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;p>&lt;em>Man is a tool using animal. Without tools, he is nothing. With tools, he is all.&lt;/em>&lt;/p>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" https://github.com/rust-boom/rust-boom" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/hide/rs-study/rust_boom.jpg"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Rust Boom&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;p>&lt;em>Man is a tool using animal. Without tools, he is nothing. With tools, he is all.&lt;/em>&lt;/p>
 &lt;blockquote>
 &lt;p>There will be links of tools and websites.
 It might get a little messy.
