@@ -12,13 +12,13 @@ type: "page"
 
 ### 入门
 
-{{< inline-images src="/img/hide/banner.jpg" href="https://course.rs/about-book.html" text="Rust 语言圣经(Rust Course)" >}}
-{{< inline-images src="/img/hide/cd_home.jpg" href="https://kaisery.github.io/trpl-zh-cn/foreword.html" text="Rust 程序设计语言 简体中文版" >}}
+{{< inline-images src="/img/hide/rs-study/banner.jpg" href="https://course.rs/about-book.html" text="Rust 语言圣经(Rust Course)" >}}
+{{< inline-images src="/img/hide/rs-study/cd_home.jpg" href="https://kaisery.github.io/trpl-zh-cn/foreword.html" text="Rust 程序设计语言 简体中文版" >}}
 
+{{< inline-images src="/img/hide/rs-study/teach-rs.png" href="https://teach-rs.trifectatech.org/" text="teach rs" >}}
 
 [Rust 中的命令行应用](https://suibianxiedianer.github.io/rust-cli-book-zh_CN/)
 
-[teach rs](https://teach-rs.trifectatech.org/)
 
 
 

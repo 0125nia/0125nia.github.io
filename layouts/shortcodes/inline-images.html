@@ -2,13 +2,16 @@
     {{ $img := .Params.src }}
     {{ $link := .Params.href }}
     {{ $text := .Params.text }}
+    {{ $width := default "300px" .Params.width }}
+    {{ $height := default "150px" .Params.height }}
 
     {{ if and $img $link }}
     <a href=" {{ $link }}" target="_blank">
-        <img src="{{ $img }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10px;">
+        <img src="{{ $img }}"
+            style="width: {{ $width }}; height: {{ $height }}; object-fit: cover; border-radius: 10px;">
     </a>
     {{ else if $img }}
-    <img src="{{ $img }}" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10px;">
+    <img src="{{ $img }}" style="width: {{ $width }}; height: {{ $height }}; object-fit: cover; border-radius: 10px;">
     {{ end }}
     {{ if $text }}
     <p style="text-align: center; margin-top: 5px; font-size: 14px;">{{ $text }}</p>
