@@ -1,7 +1,7 @@
 ---
 date: 2024-05-03T23:16:15+08:00
 # description: ""
-image: "https://github.com/spf13/cobra/raw/main/assets/CobraMain.png"
+# image: ""
 lastmod: 2024-05-03
 showTableOfContents: true
 tags: ["go","cmd"]

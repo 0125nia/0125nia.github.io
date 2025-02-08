@@ -32,7 +32,7 @@ There's gonna be all kinds of stuff about me.
 Feel free to check it out if you're interested.
 
 
-[![](/img/hide/hide.png)](./toc)
+[![](/img/hide/hide.png)](./nav)
 
 ---
 *Laissez tout se produire*

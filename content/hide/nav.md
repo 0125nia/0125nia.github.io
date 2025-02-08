@@ -5,6 +5,7 @@ title: "Nav"
 type: "page"
 ---
 
-<a><span></span></a>
 
-[]()
+[collect](./../collect)
+
+[rust_study](./../rust_study)
