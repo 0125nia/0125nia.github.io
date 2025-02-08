@@ -25,8 +25,9 @@ I find them very enjoyable and relaxing to use.
   
   ![Static Badge](https://img.shields.io/badge/go-1.22.5-blue)
 
-  ![alt text](image.png)
+  ![shields](/img/hide/shields.io.png)
 
+---
 
 - [carbon](https://carbon.now.sh/)
 
