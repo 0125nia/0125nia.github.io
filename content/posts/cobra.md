@@ -1,9 +1,9 @@
 ---
 date: 2024-05-03T23:16:15+08:00
 # description: ""
-# image: ""
+image: "https://github.com/spf13/cobra/raw/main/assets/CobraMain.png"
 lastmod: 2024-05-03
-showTableOfContents: false
+showTableOfContents: true
 tags: ["go","cmd"]
 title: "快速入门Cobra - 强大的Go语言命令行构建框架"
 type: "post"
@@ -73,49 +73,12 @@ Cobra 不需要任何特殊的构造函数。只需创建您的命令即可。
 - 创建`rootCmd`结构体
 - 编写`Execute`方法
 
-```
-package cmd
+![rootCmd](/img/post/cobra_rootCmd.png)
 
-import (
-    "fmt"
-    "os"
-    "github.com/spf13/cobra"
-)
-
-var rootCmd = &cobra.Command{
-    Use: "app", //命令名称
-    Short: "这里写简短的命令描述",
-    Long: `这里写较长的命令描述`,
-    Run: func(cmd *cobra.Command, args []string) { //当执行命令时会调用此函数
-        fmt.Println("app hugo...")
-    },
-}
-
-func Execute() { //启动命令行应用程序并执行用户指定的命令
-    if err := rootCmd.Execute(); err != nil {
-       fmt.Println(err)
-       os.Exit(1)
-    }
-}
-
-
-```
-
----
 
 `main.go`文件非常裸露。它有一个目的：初始化眼镜蛇
 
-```
-package main
-
-import (
-    "app/cmd"
-)
-
-func main() {
-    cmd.Execute()
-}
-```
+![alt text](/img/post/cobra_main.png)
 
 此时我们可以先运行一下查看效果
 
@@ -131,19 +94,7 @@ func main() {
 
 编写 `client.go` 注意这个文件也是在`cmd`文件夹下的
 
-```
-var clientCmd = &cobra.Command{
-    Use: "client",
-    Short: "start client of app",
-    Run: func(cmd *cobra.Command, args []string) {
-        fmt.Println("client start...")
-    },
-}
-
-func init() {
-    rootCmd.AddCommand(versionCmd) //添加子命令
-}
-```
+![clientCmd](/img/post/cobra_clientCmd.png)
 
 编译 `go build -o app`
 
@@ -155,16 +106,8 @@ func init() {
 
 另外，也可以在`root.go`文件中写入`init`函数
 
-```
-func init() {
-    cobra.OnInitialize(initConfig)
-}
 
-func initConfig() {
-    //在这里添加配置初始化的代码
-}
-```
-
+![init](/img/post/cobra_init.png)
 `cobra.OnInitialize(initConfig)`：这是 Cobra 提供的一个功能，用于注册一个或多个函数，在 Cobra 初始化完成后（即解析完命令行参数之后）立即执行。initConfig 函数在这里被注册，意味着每次应用程序启动且 Cobra 初始化完毕后，都会调用 initConfig 函数执行配置初始化逻辑。
 
 `initConfig()`：这可能包括从文件（如 YAML、JSON、环境变量或命令行标志）中读取配置信息，设置日志级别，初始化数据库连接或其他任何应用程序启动时需要准备的设置。

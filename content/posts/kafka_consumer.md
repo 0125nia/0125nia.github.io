@@ -5,7 +5,7 @@ description: "Kafka 作为一种分布式流处理消息队列，其消费者机
 使用消费者组提高了分布式消息处理系统的可扩展性、可靠性和容错性"
 # image: ""
 lastmod: 2024-10-03
-showTableOfContents: false
+showTableOfContents: true
 tags: ["kafka"]
 title: "Kafka 消费者架构的优化，动态工厂的实践"
 type: "post"
