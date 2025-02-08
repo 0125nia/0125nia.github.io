@@ -17,7 +17,9 @@ type: "page"
 
 {{< inline-images src="/img/hide/rs-study/teach-rs.png" href="https://teach-rs.trifectatech.org/" text="teach rs" >}}
 
-[Rust 中的命令行应用](https://suibianxiedianer.github.io/rust-cli-book-zh_CN/)
+{{< inline-images src="/img/hide/rs-study/rust_boom.jpg" href="https://github.com/rust-boom/rust-boom" text="Rust Boom" >}}
+
+
 
 
 
