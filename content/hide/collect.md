@@ -37,6 +37,10 @@ I find them very enjoyable and relaxing to use.
 
 - [icon-icons](https://icon-icons.com)
 
+### fonts
+
+- [befonts](https://befonts.com/)
+
 ### study
 
 - [codecrafters](https://app.codecrafters.io/)
