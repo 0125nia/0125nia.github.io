@@ -1,0 +1,45 @@
+<div style="padding: 10px;">
+    {{ $link := .Params.href }}
+    {{ $text := .Params.text }}
+    <!-- From Uiverse.io by ArturCodeCraft -->
+    <a class="hover_link_r" href=" {{ $link }}" target="_blank">
+        {{ $text }}
+    </a>
+</div>
+
+
+<style>
+    /* From Uiverse.io by ArturCodeCraft */
+    /* <reset-style> ============================ */
+    .hover_link_r {
+        text-decoration: none;
+        font: 1em sans-serif;
+    }
+
+    /* <main-style> ============================ */
+    .hover_link_r {
+        color: inherit;
+        line-height: 2;
+        position: relative;
+    }
+
+    .hover_link_r::before {
+        content: '';
+        width: 0;
+        height: 2px;
+        border-radius: 2px;
+        background-color: currentColor;
+        position: absolute;
+        bottom: -.25rem;
+        left: 0;
+        transition: width .6s;
+    }
+
+    .hover_link_r:hover {
+        color: inherit;
+    }
+
+    .hover_link_r:hover::before {
+        width: 100%;
+    }
+</style>

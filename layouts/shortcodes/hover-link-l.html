@@ -2,27 +2,26 @@
     {{ $link := .Params.href }}
     {{ $text := .Params.text }}
     <!-- From Uiverse.io by ArturCodeCraft -->
-    <a class="hover_link" href=" {{ $link }}" target="_blank">
+    <a class="hover_link_l" href=" {{ $link }}" target="_blank">
         {{ $text }}
     </a>
 </div>
 
-
 <style>
     /* From Uiverse.io by ArturCodeCraft */
     /* <reset-style> ============================ */
-    .hover_link {
+    .hover_link_l {
         text-decoration: none;
     }
 
     /* <main-style> ============================ */
-    .hover_link {
+    .hover_link_l {
         color: inherit;
         line-height: 2;
         position: relative;
     }
 
-    .hover_link::before {
+    .hover_link_l::before {
         content: '';
         width: 0;
         height: 2px;
@@ -30,15 +29,16 @@
         background-color: currentColor;
         position: absolute;
         bottom: -.25rem;
-        left: 0;
-        transition: width .6s;
+        right: 0;
+        transition: right .4s, width .4s, left .4s;
     }
 
-    .hover_link:hover {
+    .hover_link_l:hover {
         color: inherit;
     }
 
-    .hover_link:hover::before {
+    .hover_link_l:hover::before {
         width: 100%;
+        left: 0;
     }
 </style>
