@@ -5,9 +5,13 @@ title: "Nav"
 type: "page"
 ---
 
+{{< class-wrapper class="dw-font" >}}
 {{< hover-link-l href="./../collect" text="Collect - Man is a tool using animal. Without tools, he is nothing. With tools, he is all." >}}
-{{< hover-link-l href="./../rust_study" text="rust_study" >}}
+{{< /class-wrapper >}}
 
+{{< class-wrapper class="dw-font" >}}
+{{< hover-link-l href="./../rust_study" text="rust_study" >}}
+{{< /class-wrapper >}}
 
 --- 
 
