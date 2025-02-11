@@ -7,8 +7,6 @@ type: "page"
 
 {{< title text="Nav" />}}
 
-
-
 {{< class-wrapper class="dw-font" >}}
 {{< hover-link-l href="./../collect" text="Collect - Man is a tool using animal. Without tools, he is nothing. With tools, he is all." >}}
 
