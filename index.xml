@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;a href="https://0125nia.github.io/hide/nav/#Nav" style="text-decoration: none;">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://0125nia.github.io/projects/</link><pubDate>Wed, 12 Feb 2025 00:33:15 +0800</pubDate><guid>https://0125nia.github.io/projects/</guid><description>&lt;hr>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" ./echo_dispatch" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/project/echodispatch.png"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">EchoDispatch - 消息推送系统&lt;/p>
+ 
+&lt;/div>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" ./find_me" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/project/find_me.png"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Find Me - 自我成长类平台&lt;/p>
+ 
+&lt;/div></description></item><item><title/><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;a href="https://0125nia.github.io/hide/nav/#Nav" style="text-decoration: none;">
  &lt;h1 id="Nav" class="bonkers-font" style="font-size: 1.5em;">
  
  Nav
@@ -293,6 +327,23 @@ Mais il n’y a rien d’extraordinaire ici.
  
 
  
+ &lt;a href=" https://github.com/rust-boom/rust-boom" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/hide/rs-study/rust_boom.jpg"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Rust Boom&lt;/p>
+ 
+&lt;/div>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
  &lt;a href=" https://kaisery.github.io/trpl-zh-cn/foreword.html" target="_blank">
  &lt;img src="https://0125nia.github.io/img/hide/rs-study/cd_home.jpg"
  style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
@@ -301,7 +352,7 @@ Mais il n’y a rien d’extraordinaire ici.
  
  &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Rust 程序设计语言 简体中文版&lt;/p>
  
-&lt;/div>&lt;/p>
+&lt;/div>
 &lt;div style="display: inline-block; padding: 10px;">
  
  
@@ -316,24 +367,7 @@ Mais il n’y a rien d’extraordinaire ici.
  &lt;/a>
  
  
- &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">teach rs&lt;/p>
- 
-&lt;/div>
-&lt;div style="display: inline-block; padding: 10px;">
- 
- 
- 
- 
- 
-
- 
- &lt;a href=" https://github.com/rust-boom/rust-boom" target="_blank">
- &lt;img src="https://0125nia.github.io/img/hide/rs-study/rust_boom.jpg"
- style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
- &lt;/a>
- 
- 
- &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Rust Boom&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;p>&lt;em>Man is a tool using animal. Without tools, he is nothing. With tools, he is all.&lt;/em>&lt;/p>
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">teach rs&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;p>&lt;em>Man is a tool using animal. Without tools, he is nothing. With tools, he is all.&lt;/em>&lt;/p>
 &lt;blockquote>
 &lt;p>There will be links of tools and websites.
 It might get a little messy.
@@ -441,4 +475,8 @@ I find them very enjoyable and relaxing to use.&lt;/p>
 &lt;p>&lt;code>git commit -m &amp;quot;Initial commit&amp;quot;&lt;/code>：这里&lt;code>git&lt;/code>是应用程序名称，&lt;code>commit&lt;/code>是命令，&lt;code>-m&lt;/code>是一个标志，后面跟着的 &lt;code>&amp;quot;Initial commit&amp;quot;&lt;/code> 是该标志的值，作为提交信息。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>hugo server --port=1313&lt;/code>：&lt;code>hugo&lt;/code>为应用程序名称，&lt;code>server&lt;/code>是命令，&lt;code>port&lt;/code>是标志&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>hugo server --port=1313&lt;/code>：&lt;code>hugo&lt;/code>为应用程序名称，&lt;code>server&lt;/code>是命令，&lt;code>port&lt;/code>是标志&lt;/p></description></item><item><title>Echo Dispatch</title><link>https://0125nia.github.io/projects/echo_dispatch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/echo_dispatch/</guid><description>&lt;blockquote>
+&lt;p>通过内嵌SDK的方式接入短信、邮箱等渠道实现统一的接口发送各种类型消息，记录消息的发送情况，对消息生命周期全链路追踪。使用消费组实现消息资源的隔离，不同的渠道中的不同消息类型互不影响。&lt;/p>
+&lt;/blockquote></description></item><item><title>Find Me</title><link>https://0125nia.github.io/projects/find_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/find_me/</guid><description>&lt;blockquote>
+&lt;p>一个帮助用户了解自我、认识自我、完善自我的“自我成长类平台”，旨在为用户提供自我探索、职业测试、星星交流区、匹配交流、成长星球、职业学习路线推荐、ToBingo计划等服务，一站式满足多样化的自我成长需求&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
