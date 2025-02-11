@@ -1,0 +1,18 @@
+<!-- français -->
+{{ $text := .Get "text" }}
+<p class="français">
+    {{ if $text }}
+    {{ $text }}
+    {{else}}
+    {{ .Inner }}
+    {{ end }}
+</p>
+
+<style>
+    .français {
+        font-style: italic;
+        font-size: 1.3em;
+        font-family: 'Times New Roman', sans-serif;
+        line-height: 2;
+    }
+</style>
