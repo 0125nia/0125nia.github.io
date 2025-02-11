@@ -13,11 +13,10 @@ type: "page"
 ### 入门
 
 {{< inline-images src="/img/hide/rs-study/banner.jpg" href="https://course.rs/about-book.html" text="Rust 语言圣经(Rust Course)" >}}
+{{< inline-images src="/img/hide/rs-study/rust_boom.jpg" href="https://github.com/rust-boom/rust-boom" text="Rust Boom" >}}
 {{< inline-images src="/img/hide/rs-study/cd_home.jpg" href="https://kaisery.github.io/trpl-zh-cn/foreword.html" text="Rust 程序设计语言 简体中文版" >}}
-
 {{< inline-images src="/img/hide/rs-study/teach-rs.png" href="https://teach-rs.trifectatech.org/" text="teach rs" >}}
 
-{{< inline-images src="/img/hide/rs-study/rust_boom.jpg" href="https://github.com/rust-boom/rust-boom" text="Rust Boom" >}}
 
 
 
