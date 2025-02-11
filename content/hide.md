@@ -16,9 +16,9 @@ Mais il n’y a rien d’extraordinaire ici
 
 # ABOUT ME
 
-As a college student majoring in computer science, I have experience with Java, Go, C, C++, and Rust. Currently, I prefer coding with Go and Rust.
+As a college student majoring in computer science, I have experience with **Java**, **Go**, **C**, **C++**, and **Rust**. Currently, I prefer coding with **Go** and **Rust**.
 
-I am working on improving my English skills and still trying to use English whenever possible. Additionally, I am learning French.
+I am working on improving my English skills and still trying to use English whenever possible. Additionally, I am learning **French**.
 
 My goal is to enhance my English proficiency and perfect this blog.
 
@@ -35,4 +35,4 @@ Feel free to check it out if you're interested.
 [![](/img/hide/hide.png)](./nav)
 
 ---
-*Laissez tout se produire*
+{{< italic-text text="Laissez tout se produire" >}}
