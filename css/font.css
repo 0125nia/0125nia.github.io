@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Delight Winter";
+    src: url(./../fonts/Delight_Winter.ttf) format("truetype"),
+        url(./../fonts/Delight_Winter.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dw-font {
+    font-family: "Delight Winter";
+}
+
+@font-face {
+    font-family: "Langoutstine";
+    src: url(./../fonts/Langoustine.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.langoutstine-font {
+    font-family: "Langoutstine";
+}
+
+@font-face {
+    font-family: "Liu Jian Mao Cao";
+    src: url(./../fonts/LiuJianMaoCao-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.liu-font {
+    font-family: "Liu Jian Mao Cao";
+}
+
+@font-face {
+    font-family: "Yan Shi Xia Xing Kai";
+    src: url(./../fonts/YanShiXiaXingKai-2.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.yan-font {
+    font-family: "Yan Shi Xia Xing Kai";
+}
+
+@font-face {
+    font-family: "Rachel italic";
+    src: url(./../fonts/Rachel_italic.ttf) format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+.rachel-i-font {
+    font-family: "Rachel italic";
+}
+
+@font-face {
+    font-family: "Rachel Roman";
+    src: url(./../fonts/Rachel_Roman.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rachel-font {
+    font-family: "Rachel Roman";
+}
+
+@font-face {
+    font-family: "Moalang";
+    src: url(./../fonts/Moalang.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.moalang-font {
+    font-family: "Moalang";
+}
+
+@font-face {
+    font-family: "Bonkers";
+    src: url(./../fonts/Bonkers.ttf) format("truetype"),
+        url(./../fonts/Bonkers.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bonkers-font {
+    font-family: "Bonkers";
+}

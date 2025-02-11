@@ -1,12 +1,270 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Nav</title><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;p>&lt;a href="./../collect">collect&lt;/a>&lt;/p>
-&lt;p>&lt;a href="./../rust_study">rust_study&lt;/a>&lt;/p></description></item><item><title>Congratulations on finding this place!</title><link>https://0125nia.github.io/hide/</link><pubDate>Sat, 08 Feb 2025 17:04:20 +0800</pubDate><guid>https://0125nia.github.io/hide/</guid><description>&lt;p>你可能会觉得你发现了什么不得了的东西&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;a href="https://0125nia.github.io/hide/nav/#Nav" style="text-decoration: none;">
+ &lt;h1 id="Nav" class="bonkers-font" style="font-size: 1.5em;">
+ 
+ Nav
+ 
+
+ &lt;/h1>
+&lt;/a>
+
+&lt;div class="dw-font">
+ 
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_l" href=" ./../collect" target="_blank">
+ Collect - Man is a tool using animal. Without tools, he is nothing. With tools, he is all.
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_l {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_l {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_l::before {
+ content: '';
+ width: 0;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.25rem;
+ right: 0;
+ transition: right .5s, width .5s, left .5s;
+ }
+
+ .hover_link_l:hover {
+ color: inherit;
+ }
+
+ .hover_link_l:hover::before {
+ width: 100%;
+ left: 0;
+ }
+&lt;/style>
+
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_l" href=" ./../rust_study" target="_blank">
+ rust study
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_l {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_l {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_l::before {
+ content: '';
+ width: 0;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.25rem;
+ right: 0;
+ transition: right .5s, width .5s, left .5s;
+ }
+
+ .hover_link_l:hover {
+ color: inherit;
+ }
+
+ .hover_link_l:hover::before {
+ width: 100%;
+ left: 0;
+ }
+&lt;/style>
+
+
+&lt;/div>
+&lt;hr>
+
+
+
+
+
+
+
+&lt;a href="https://0125nia.github.io/hide/nav/#" style="text-decoration: none;">
+ &lt;h1 id="" class="bonkers-font" style="font-size: 1.5em;">
+ 
+ 
+ Some Articles
+
+ 
+
+ &lt;/h1>
+&lt;/a>
+
+&lt;div class="yan-font">
+ 
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_b" href=" https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way" target="_blank">
+ 提问的智慧
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_b {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_b {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_b::before {
+ content: '';
+ width: 100%;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.5rem;
+ left: 0;
+ transition: transform .5s, opacity .5s;
+ opacity: 0;
+ }
+
+ .hover_link_b:hover {
+ color: inherit;
+ }
+
+ .hover_link_b:hover::before {
+ transform: translateY(-.25rem);
+ opacity: 1;
+ }
+&lt;/style>
+
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_b" href=" https://github.com/firstcontributions/first-contributions" target="_blank">
+ first-contributions
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_b {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_b {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_b::before {
+ content: '';
+ width: 100%;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.5rem;
+ left: 0;
+ transition: transform .5s, opacity .5s;
+ opacity: 0;
+ }
+
+ .hover_link_b:hover {
+ color: inherit;
+ }
+
+ .hover_link_b:hover::before {
+ transform: translateY(-.25rem);
+ opacity: 1;
+ }
+&lt;/style>
+
+
+&lt;/div></description></item><item><title/><link>https://0125nia.github.io/hide/</link><pubDate>Sat, 08 Feb 2025 17:04:20 +0800</pubDate><guid>https://0125nia.github.io/hide/</guid><description>&lt;a href="https://0125nia.github.io/hide/#Congratulations%20on%20finding%20this%20place%21" style="text-decoration: none;">
+ &lt;h1 id="Congratulations on finding this place!" class="bonkers-font" style="font-size: 1.5em;">
+ 
+ Congratulations on finding this place!
+ 
+
+ &lt;/h1>
+&lt;/a>
+&lt;p>你可能会觉得你发现了什么不得了的东西&lt;/p>
 &lt;p>但实际上这里并没有什么特别的&lt;/p>
-&lt;p>Vous pouvez penser que vous avez trouvé quelque chose d’extraordinaire&lt;/p>
-&lt;p>Mais il n’y a rien d’extraordinaire ici&lt;/p>
-&lt;h1 id="about-me">ABOUT ME&lt;/h1>
-&lt;p>As a college student majoring in computer science, I have experience with Java, Go, C, C++, and Rust. Currently, I prefer coding with Go and Rust.&lt;/p>
-&lt;p>I am working on improving my English skills and still trying to use English whenever possible. Additionally, I am learning French.&lt;/p>
-&lt;p>My goal is to enhance my English proficiency and perfect this blog.&lt;/p></description></item><item><title>Rust_study</title><link>https://0125nia.github.io/hide/rust_study/</link><pubDate>Sat, 08 Feb 2025 16:28:20 +0800</pubDate><guid>https://0125nia.github.io/hide/rust_study/</guid><description>&lt;blockquote>
+
+
+&lt;p class="français">
+ 
+ 
+Vous pouvez penser que vous avez trouvé quelque chose d’extraordinaire.
+&lt;br>
+Mais il n’y a rien d’extraordinaire ici.
+
+ 
+&lt;/p>
+
+&lt;style>
+ .français {
+ font-style: italic;
+ font-size: 1.3em;
+ font-family: 'Times New Roman', sans-serif;
+ line-height: 2;
+ }
+&lt;/style>
+
+
+
+
+
+
+
+&lt;a href="https://0125nia.github.io/hide/#ABOUT%20ME" style="text-decoration: none;">
+ &lt;h1 id="ABOUT ME" class="bonkers-font" style="font-size: 1.5em;">
+ 
+ ABOUT ME
+ 
+
+ &lt;/h1>
+&lt;/a>
+&lt;p>As a college student majoring in computer science, I have experience with &lt;strong>Java&lt;/strong>, &lt;strong>Go&lt;/strong>, &lt;strong>C&lt;/strong>, &lt;strong>C++&lt;/strong>, and &lt;strong>Rust&lt;/strong>. Currently, I prefer coding with &lt;strong>Go&lt;/strong> and &lt;strong>Rust&lt;/strong>.&lt;/p></description></item><item><title>Rust_study</title><link>https://0125nia.github.io/hide/rust_study/</link><pubDate>Sat, 08 Feb 2025 16:28:20 +0800</pubDate><guid>https://0125nia.github.io/hide/rust_study/</guid><description>&lt;blockquote>
 &lt;p>&lt;em>A language empowering everyone to build reliable and efficient software.&lt;/em>&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="入门">入门&lt;/h3>
