@@ -2,11 +2,18 @@
 {{ $font_size := .Get "font_size" | default "1.5em" }}
 {{ $text := .Get "text" }}
 {{ $type := .Get "type" | default "h1" }}
-<h1 class="{{ $class }}" style="font-size: {{ $font_size }};">
-    {{ if $text }}
-    {{ $text }}
-    {{else}}
-    {{ .Inner }}
-    {{ end }}
+{{ $link := .Page.Permalink }}
 
-</h1>
+{{ if eq (slice (len $link) 0 (len $link)) "/" }}
+{{ $link = substr $link 0 (sub (len $link) 1) }}
+{{ end }}
+<a href="{{ $link }}#{{ $text }}" style="text-decoration: none;">
+    <h1 id="{{ $text }}" class="{{ $class }}" style="font-size: {{ $font_size }};">
+        {{ if $text }}
+        {{ $text }}
+        {{else}}
+        {{ .Inner }}
+        {{ end }}
+
+    </h1>
+</a>
