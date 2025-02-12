@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Io on nia</title><link>https://0125nia.github.io/tags/io/</link><description>Recent content in Io on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/tags/io/index.xml" rel="self" type="application/rss+xml"/><item><title>网络编程 - BIO、NIO</title><link>https://0125nia.github.io/posts/network_program/</link><pubDate>Mon, 10 Jul 2023 18:44:43 +0800</pubDate><guid>https://0125nia.github.io/posts/network_program/</guid><description>&lt;blockquote>
+&lt;p>网络编程是指利用计算机网络进行数据交换和通信的编程技术，使得不同计算机或设备之间能通过网络进行信息传输&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="基础概念">基础概念&lt;/h3>
+&lt;p>首先了解一下网络编程的基础概念&lt;/p>
+&lt;h4 id="客户端和服务器">客户端和服务器&lt;/h4>
+&lt;ul>
+&lt;li>客户端是指发起请求的一方，一般是属于用户端的设备，例如浏览器、手机应用&lt;/li>
+&lt;li>服务器是接收并处理请求的一方，负责提供服务或资源，例如web服务器、数据库等&lt;/li>
+&lt;/ul>
+&lt;h4 id="套接字-socket">套接字 socket&lt;/h4>
+&lt;p>套接字是网络编程中的核心，提供了一个通信端点，客户端和服务器通过套接字进行数据的传输&lt;/p>
+&lt;p>套接字的主要作用是实现对网络通信的封装，包括数据的发送和接收&lt;/p>
+&lt;h4 id="协议">协议&lt;/h4>
+&lt;p>协议是指一套规则和约定，用来规范网络中通信双方如何交换数据。协议定义了数据的格式、传输的顺序、错误处理机制、重传机制等。&lt;/p>
+&lt;p>常见通信协议有 TCP/IP、UDP&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>TCP（传输控制协议）&lt;/strong>：面向连接，可靠，保证数据的顺序和完整性。适用于要求数据传输准确、稳定的应用。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>UDP（用户数据报协议）&lt;/strong>：无连接，不可靠，传输速度快，适用于实时应用，如视频、语音通话等。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="网络编程的主要步骤">网络编程的主要步骤&lt;/h3>
+&lt;ol>
+&lt;li>创建套接字&lt;/li>
+&lt;li>在服务器端绑定地址&lt;/li>
+&lt;li>在服务器端监听和接受连接&lt;/li>
+&lt;li>客户端连接到服务端&lt;/li>
+&lt;li>数据传输&lt;/li>
+&lt;li>关闭连接&lt;/li>
+&lt;/ol>
+&lt;h3 id="网络演变的本质">网络演变的本质&lt;/h3>
+&lt;p>随着网络连接上升，为了解决连接的问题而产生的变化&lt;/p>
+&lt;h3 id="阻塞io">阻塞IO&lt;/h3>
+&lt;blockquote>
+&lt;p>即BIO&lt;/p>
+&lt;/blockquote>
+&lt;p>在输入/输出操作时，程序会被阻塞，直到操作完成，在阻塞IO模式下，当程序请求读取或写入数据时，程序会暂停执行，等待操作完成后才会继续执行&lt;/p>
+&lt;p>优点很明显，可以简单实现client和server端的通信 通常一个client连接分配一个线程进行处理&lt;/p>
+&lt;p>但缺点是 能支持的并发client连接数较少，一台server能分配的线程是有限的，大量线程会造成上下文切换过多而影响性能&lt;/p>
+&lt;hr>
+&lt;p>为了解决以上问题，避免阻塞影响后续接收新的client连接，需将阻塞逻辑交由&lt;strong>单独线程&lt;/strong>进行处理&lt;/p>
+&lt;h3 id="非阻塞io">非阻塞IO&lt;/h3>
+&lt;blockquote>
+&lt;p>NIO&lt;/p>
+&lt;/blockquote>
+&lt;p>在进行 I/O 操作时，程序不会因等待数据的传输阻塞，操作会立即返回，程序可以继续执行其他任务，直到有数据可以读取或写入时再进行操作&lt;/p>
+&lt;p>相比于阻塞 I/O，非阻塞 I/O 可以显著提高程序的响应性和并发性&lt;/p>
+&lt;p>优点是比较明显的，服务器在读取时数据未就绪就直接返回，无需阻塞，可以通过一个线程来管理多个client连接&lt;/p>
+&lt;p>而缺点是 由于系统并不知道数据何时准备就绪，需要不断的进行&lt;strong>轮询&lt;/strong>，涉及很多无效的、频繁的系统调用&lt;/p>
+&lt;hr>
+&lt;p>而对非阻塞IO轮询可以如何改进呢？将会在后续进行补充&lt;/p></description></item></channel></rss>
