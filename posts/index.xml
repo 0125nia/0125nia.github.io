@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on nia</title><link>https://0125nia.github.io/posts/</link><description>Recent content in Posts on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>关于过度开发的思考</title><link>https://0125nia.github.io/posts/excessive_development/</link><pubDate>Wed, 25 Dec 2024 23:54:24 +0800</pubDate><guid>https://0125nia.github.io/posts/excessive_development/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on nia</title><link>https://0125nia.github.io/posts/</link><description>Recent content in Posts on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>关于过度开发的思考</title><link>https://0125nia.github.io/posts/excessive_development/</link><pubDate>Wed, 25 Dec 2024 23:54:24 +0800</pubDate><guid>https://0125nia.github.io/posts/excessive_development/</guid><description>&lt;ul>
 &lt;li>数据结构和算法 ——应对——&amp;gt; 大数据量问题&lt;/li>
 &lt;li>设计模式和代码设计 ——应对——&amp;gt; 复杂代码问题&lt;/li>
 &lt;/ul>
@@ -70,7 +70,97 @@
 &lt;li>扩展性：如果需要动态扩展应用程序的消费者实例数量，又需要我们手动修改配置，增加了复杂度。&lt;/li>
 &lt;li>资源竞争：如若我们只使用一个或少量的消费者组，多个应用实例同时使用了相同的消费者消费者组 id，他们可能会争抢同一批分区，可能会导致资源竞争和状态干扰&lt;/li>
 &lt;/ol>
-&lt;p>Kafka 的消费者组机制是非常重要的组成部分，但其传统的配置方式存在一些局限性，这就需要我们找寻更为灵活可靠的方式来配置多个消费者组。&lt;/p></description></item><item><title>快速入门Cobra - 强大的Go语言命令行构建框架</title><link>https://0125nia.github.io/posts/cobra/</link><pubDate>Fri, 03 May 2024 23:16:15 +0800</pubDate><guid>https://0125nia.github.io/posts/cobra/</guid><description>&lt;h3 id="cobra-介绍">Cobra 介绍&lt;/h3>
+&lt;p>Kafka 的消费者组机制是非常重要的组成部分，但其传统的配置方式存在一些局限性，这就需要我们找寻更为灵活可靠的方式来配置多个消费者组。&lt;/p></description></item><item><title>MySQL中的锁</title><link>https://0125nia.github.io/posts/mysql_lock/</link><pubDate>Sat, 17 Aug 2024 16:11:13 +0800</pubDate><guid>https://0125nia.github.io/posts/mysql_lock/</guid><description>&lt;h3 id="全局锁">全局锁&lt;/h3>
+&lt;blockquote>
+&lt;p>设在多个事务同时访问同一条数据时，冲突发生的概率较低，因此在操作数据时不会立即进行锁定，而是在提交数据更改时检查是否有其它事务修改了这条数据，若没有就提交更改，否则就回滚事务&lt;/p>
+&lt;/blockquote>
+&lt;p>MYSQL中并没有内置实现乐观锁，但可以通过一些技巧实现，常见的实现方式是使用版本号（或时间戳）字段，每当一条记录被修改时，就增加版本号（或更新时间戳）。
+在更新记录时，先检查版本号（或时间戳）是否和读取记录时的版本号（或时间戳）一致，如果一致则执行更新并增加版本号（或更新时间戳），否则拒绝更新&lt;/p>
+&lt;p>&lt;strong>优点&lt;/strong>：在大部分时间都不需要锁定，所以在冲突较少的情况下可以获得较高的并发性能，然而，如果冲突较多，那么乐观锁可能会导致大量的事务回滚，从而影响性能，因此，选择乐观锁还是其它锁定技术，需要根据实际的并发情况和性能需求来决定&lt;/p>
+&lt;p>&lt;strong>使用场景&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>低冲突环境&lt;/li>
+&lt;li>读多写少的场景：在读操作远多于写操作的情况下，乐观锁可以避免由于频繁的读操作导致不必要的锁定开销&lt;/li>
+&lt;li>短事务操作&lt;/li>
+&lt;li>分布式系统：由于网络延迟等原因，事务冲突的可能性较低，因此乐观锁是一个合适的选择&lt;/li>
+&lt;li>互联网应用：并发修改同一条数据的几率较小，因此使用乐观锁可以提高系统性能&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>缺点&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>冲突检测&lt;/li>
+&lt;li>处理开销：冲突发生时需要进行回滚和重试，可能会增加系统的开销，在一些场景中可能会导致性能下降&lt;/li>
+&lt;li>版本管理：乐观锁通常通过版本号（或时间戳）来检测冲突&lt;/li>
+&lt;li>编程复杂性：使用乐观锁需要更复杂的编程，程序需要处理可能发生的冲突和重试&lt;/li>
+&lt;/ul>
+&lt;p>有效的并发控制策略，在冲突较多的情况下可能会带来更大的开销和编程复杂性，因此是否使用乐观锁现需要根据应用的具体需求和场景来决定&lt;/p>
+&lt;hr>
+&lt;h3 id="表锁">表锁&lt;/h3>
+&lt;blockquote>
+&lt;p>mysql中最基本的锁策略
+表级锁开销小、加锁快，不会出现死锁
+锁定粒度大，发生锁冲突的概率最高
+并发度最低&lt;/p>
+&lt;/blockquote>
+&lt;p>表共享读锁(Table Read Lock)：表读锁，允许一个事务锁定的表进行读取操作，不允许其它事务对其进行写操作，但可以进行读操作，读锁之间是不会互相阻塞的&lt;/p>
+&lt;p>表独占写锁（Table Write Lock）表写锁 允许一个事务锁定的表进行读取和写入（更新）操作，但其它任何事务都不能再对该表进行任何操作，必须等待表写锁结束，写锁会阻塞其它所有锁，包括读锁和写锁&lt;/p>
+&lt;p>在MySQL中对MylSAM表的读操作，会自动加上读锁，对MylSAM表的写操作，会自动加上写锁&lt;/p>
+&lt;p>InnoDB引擎在必要的情况下会使用表锁，但主要是使用行锁来实现多版本并发控制（MVCC）能提供更好的并发性能和更少的锁冲突&lt;/p>
+&lt;p>适用读操作多，写操作少的应用，当并发争用5不是特别激烈，以及记录级锁并发控制开销大于访问冲突开销的情况，在并发度高，或写操作较多的情况下，表锁可能会成为瓶颈&lt;/p>
+&lt;p>&lt;strong>使用场景&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>读密集型&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>写操作不频繁的场景&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据量不大的简单应用&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>全表更新或删除&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>虽然表级锁的开销小，但由于其锁定粒度大，可能会导致并发度下降&lt;/p>
+&lt;p>MYSQL中会发生表级锁的命令&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>ALTER TABLE&lt;/code>&lt;/li>
+&lt;li>&lt;code>DROP TABLE&lt;/code> &amp;amp; &lt;code>TRUNCATE TABLE&lt;/code> 删除整个表以及删除表中的所有数据&lt;/li>
+&lt;li>&lt;code>LOCK TABLES&lt;/code>&lt;/li>
+&lt;li>MYlSAM存储引擎，全表扫描或大范围扫描&lt;/li>
+&lt;li>全局锁&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>表锁的风险点&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>性能下降：在高并发的环境中可能导致大量的请求阻塞，从而降低性能，对于读取和写入混合密集的负载，表锁可能会成为一个性能瓶颈&lt;/li>
+&lt;li>并发性能差：一旦一个线程对表加了写锁，其它线程的任何读写操作都会被阻塞，直到写锁被释放，同样的，如果一个读锁被持有，那么其它的写操作将被阻塞，这就使得并发性能大大降低&lt;/li>
+&lt;li>可能导致锁等待和超时：在高并发的环境中，由于表级锁的粒度较大，可能会有很多线程在等待锁，如果等待的时间过长，可能会导致锁超时，进一步影响应用的性能和可用性&lt;/li>
+&lt;li>写操作影响大&lt;/li>
+&lt;li>死锁的可能性：表锁本身不会出现死锁，但在多表操作中，若没有按照一定的顺序获得锁，可能会导致读锁&lt;/li>
+&lt;/ul>
+&lt;p>为避免此类问题，通常会选择InnoDB存储引擎，主要使用行级锁，可提供更好的并发性能，并在一定程度上减少锁争用的问题
+并且InnoDB支持事务，可保证数据的一致性和完整性，在实际应用中，我们应根据具体的业务需求和系统负载，选择合适的存储引擎和锁策略&lt;/p>
+&lt;hr>
+&lt;h3 id="行锁">行锁&lt;/h3>
+&lt;blockquote>
+&lt;p>单表中单行进行锁定&lt;/p>
+&lt;/blockquote>
+&lt;p>相比于表级锁和页锁，行级锁的粒度更小，因此在处理高并发事务时，能提供更好的并发性能和更少的锁冲突，然而，行级锁也需要更多的内存和CPU资源，需要对每一行都进行管理&lt;/p>
+&lt;p>在MYSQL中行级锁主要有InnoDB提供，InnoDB支持两种类型的行级锁&lt;/p>
+&lt;ul>
+&lt;li>共享锁（S锁）读锁&lt;/li>
+&lt;li>排他锁（X锁）写锁&lt;/li>
+&lt;/ul>
+&lt;p>在实际应用中InnoDB还提供了一种间隙锁的特性，不仅锁定一个具体的行，还锁定其前后的间隙，可以防止其它事务插入新的行到已锁定行的前后，从而解决一些并发问题&lt;/p>
+&lt;p>&lt;strong>使用场景&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>高并发读写操作&lt;/li>
+&lt;li>单行操作&lt;/li>
+&lt;li>短期锁&lt;/li>
+&lt;li>实现并发控制&lt;/li>
+&lt;li>复杂的事务处理&lt;/li>
+&lt;/ul>
+&lt;p>由于行级锁的锁定粒度较小，可能消耗更多的系统资源（例如内存和CPU），特别是在处理大量数据时，此外使用行级锁也可能导致死锁，需要使用合适的策略来避免死锁，例如在事务中按照一定的顺序锁定行&lt;/p></description></item><item><title>快速入门Cobra - 强大的Go语言命令行构建框架</title><link>https://0125nia.github.io/posts/cobra/</link><pubDate>Fri, 03 May 2024 23:16:15 +0800</pubDate><guid>https://0125nia.github.io/posts/cobra/</guid><description>&lt;h3 id="cobra-介绍">Cobra 介绍&lt;/h3>
 &lt;p>Cobra 是一个 Go 语言开发的命令行（CLI）框架，提供了简单的接口来构建命令行界面，Cobra 允许轻松地定义命令和子命令结构。被用在很多 Go 语言的项目中，比如我们熟知的 K8s、Docker 等等&lt;/p>
 &lt;p>Cobra 在我的项目中作为命令行解析层，接触到这个命令行框架，了解到 Cobra 的强大功能，故在此进行记录&lt;/p>
 &lt;p>附上 Cobra 的&lt;a href="https://github.com/spf13/cobra">项目地址&lt;/a>以及&lt;a href="https://cobra.dev">开发网站&lt;/a>&lt;/p>
