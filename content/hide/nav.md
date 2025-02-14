@@ -5,7 +5,7 @@ title: ""
 type: "page"
 ---
 
-{{< title text="Nav" />}}
+{{< title-display text="Nav" />}}
 
 {{< class-wrapper class="dw-font" >}}
 {{< hover-link-l href="./../collect" text="Collect - Man is a tool using animal. Without tools, he is nothing. With tools, he is all." >}}
@@ -17,9 +17,9 @@ type: "page"
 
 --- 
 
-{{< title >}}
+{{< title-display >}}
     Some Articles
-{{< /title >}}
+{{< /title-display >}}
 
 {{< class-wrapper class="yan-font" >}}
 {{< hover-link-b href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way" text="提问的智慧" >}}

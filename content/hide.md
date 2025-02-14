@@ -5,7 +5,7 @@ title: ""
 type: "page"
 ---
 
-{{< title text="Congratulations on finding this place!" />}}
+{{< title-display text="Congratulations on finding this place!" />}}
 
 你可能会觉得你发现了什么不得了的东西
 
@@ -17,7 +17,7 @@ Vous pouvez penser que vous avez trouvé quelque chose d’extraordinaire.
 Mais il n’y a rien d’extraordinaire ici.
 {{< /français >}}
 
-{{< title text="ABOUT ME" />}}
+{{< title-display text="ABOUT ME" />}}
 
 As a college student majoring in computer science, I have experience with **Java**, **Go**, **C**, **C++**, and **Rust**. Currently, I prefer coding with **Go** and **Rust**.
 
@@ -26,7 +26,7 @@ I am working on improving my English skills and still trying to use English when
 My goal is to enhance my English proficiency and perfect this blog.
 
 
-{{< title text="Why have this" />}}
+{{< title-display text="Why have this" />}}
 
 Just because I need a place to write something down.
 And I need to collect something in one place.
