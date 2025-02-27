@@ -6,7 +6,6 @@ showTableOfContents: true
 type: "page"
 ---
 
-*Man is a tool using animal. Without tools, he is nothing. With tools, he is all.*
 
 > There will be links of tools and websites.
 > It might get a little messy.
