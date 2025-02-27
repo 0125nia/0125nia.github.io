@@ -12,6 +12,7 @@ accentColor = "#FF4D4D"
 avatarSize = "size-m"
 description = "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué."
 footer = "nia"
+socialIcons = [{ name = "email", url = "mailto:nia220125@163.com" }]
 [menu]
 [[menu.main]]
 name = "Home"
