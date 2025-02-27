@@ -367,8 +367,7 @@ Mais il n’y a rien d’extraordinaire ici.
  &lt;/a>
  
  
- &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">teach rs&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;p>&lt;em>Man is a tool using animal. Without tools, he is nothing. With tools, he is all.&lt;/em>&lt;/p>
-&lt;blockquote>
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">teach rs&lt;/p></description></item><item><title>Collect</title><link>https://0125nia.github.io/hide/collect/</link><pubDate>Sat, 08 Feb 2025 13:43:15 +0800</pubDate><guid>https://0125nia.github.io/hide/collect/</guid><description>&lt;blockquote>
 &lt;p>There will be links of tools and websites.
 It might get a little messy.
 If I am free, I will sort them out and write some brief introduction for them.&lt;/p>
@@ -380,7 +379,44 @@ I find them very enjoyable and relaxing to use.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;a href="https://shields.io">shields&lt;/a>&lt;/p>
-&lt;p>Concise, consistent, and legible badges&lt;/p></description></item><item><title>关于过度开发的思考</title><link>https://0125nia.github.io/posts/excessive_development/</link><pubDate>Wed, 25 Dec 2024 23:54:24 +0800</pubDate><guid>https://0125nia.github.io/posts/excessive_development/</guid><description>&lt;ul>
+&lt;p>Concise, consistent, and legible badges&lt;/p>
+&lt;p>&lt;img src="https://img.shields.io/badge/ubuntu-22.04-red?style=flat" alt="Static Badge">&lt;/p>
+&lt;p>&lt;img src="https://img.shields.io/badge/go-1.22.5-blue?style=flat" alt="Static Badge">&lt;/p>
+&lt;p>&lt;img src="https://0125nia.github.io/img/hide/shields.io.png" alt="shields">&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://carbon.now.sh/">carbon&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://feathericons.com">feathericons&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://icon-icons.com">icon-icons&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="fonts">fonts&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://befonts.com/">befonts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="study">study&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://app.codecrafters.io/">codecrafters&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.duolingo.cn/">duolingo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://adventofcode.com/">adventofcode&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wangchujiang.com/linux-command/">linux-command&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.khanacademy.org/computing/computer-programming">khanacademy&lt;/a>&lt;/p></description></item><item><title>关于过度开发的思考</title><link>https://0125nia.github.io/posts/excessive_development/</link><pubDate>Wed, 25 Dec 2024 23:54:24 +0800</pubDate><guid>https://0125nia.github.io/posts/excessive_development/</guid><description>&lt;ul>
 &lt;li>数据结构和算法 ——应对——&amp;gt; 大数据量问题&lt;/li>
 &lt;li>设计模式和代码设计 ——应对——&amp;gt; 复杂代码问题&lt;/li>
 &lt;/ul>
