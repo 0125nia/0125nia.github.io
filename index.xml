@@ -135,6 +135,52 @@
  }
 &lt;/style>
 
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_l" href=" ./../tips" target="_blank">
+ some tips - Maybe useful
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_l {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_l {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_l::before {
+ content: '';
+ width: 0;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.25rem;
+ right: 0;
+ transition: right .5s, width .5s, left .5s;
+ }
+
+ .hover_link_l:hover {
+ color: inherit;
+ }
+
+ .hover_link_l:hover::before {
+ width: 100%;
+ left: 0;
+ }
+&lt;/style>
+
 
 &lt;/div>
 &lt;hr>
