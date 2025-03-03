@@ -12,6 +12,8 @@ type: "page"
 
 {{< hover-link-l href="./../rust_study" text="rust study" >}}
 
+{{< hover-link-l href="./../go_study" text="golang study" >}}
+
 {{< hover-link-l href="./../tips" text="some tips - Maybe useful" >}}
 
 {{< /class-wrapper >}}
