@@ -7,3 +7,5 @@ type: "page"
 ---
 
 https://github.com/sdcuike/Clean-Code-Collection-Books
+
+https://github.com/orgs/community/discussions/151824
