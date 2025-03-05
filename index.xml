@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://0125nia.github.io/hide/miscellaneous/</link><pubDate>Thu, 13 Feb 2025 22:23:15 +0800</pubDate><guid>https://0125nia.github.io/hide/miscellaneous/</guid><description>&lt;p>&lt;a href="https://github.com/sdcuike/Clean-Code-Collection-Books">https://github.com/sdcuike/Clean-Code-Collection-Books&lt;/a>&lt;/p></description></item><item><title>Projects</title><link>https://0125nia.github.io/projects/</link><pubDate>Wed, 12 Feb 2025 00:33:15 +0800</pubDate><guid>https://0125nia.github.io/projects/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nia</title><link>https://0125nia.github.io/</link><description>Recent content on nia</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://0125nia.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://0125nia.github.io/hide/tips/</link><pubDate>Fri, 28 Feb 2025 22:23:15 +0800</pubDate><guid>https://0125nia.github.io/hide/tips/</guid><description>&lt;h1 id="tips">Tips&lt;/h1>
+&lt;h2 id="o-文件复制到u盘">[o] 文件复制到U盘&lt;/h2>
+&lt;p>文件复制到U盘显示&lt;code>对于目标文件系统，文件XXX过大。&lt;/code>&lt;/p>
+&lt;p>这一般是因为U盘的文件系统不支持单个文件超过某个大小限制&lt;/p>
+&lt;p>如果U盘是 FAT32 文件系统，单个文件的最大大小限制是 &lt;strong>4GB&lt;/strong>&lt;/p>
+&lt;p>通过&lt;strong>格式化&lt;/strong>来修改U盘的文件系统为&lt;code>exFAT&lt;/code>或&lt;code>NTFS&lt;/code>即可解决&lt;/p>
+&lt;h2 id="go-数据传输时某个字段为初始值">[go] 数据传输时某个字段为初始值&lt;/h2>
+&lt;p>在传输前是有值的，传输后变为初始值
+一般是因为这个数据传输只会读取结构体中首字母大写的字段 其它则不被序列化
+检查该字段是否没有首字母大写&lt;/p></description></item><item><title/><link>https://0125nia.github.io/hide/miscellaneous/</link><pubDate>Thu, 13 Feb 2025 22:23:15 +0800</pubDate><guid>https://0125nia.github.io/hide/miscellaneous/</guid><description>&lt;p>&lt;a href="https://github.com/sdcuike/Clean-Code-Collection-Books">https://github.com/sdcuike/Clean-Code-Collection-Books&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/orgs/community/discussions/151824">https://github.com/orgs/community/discussions/151824&lt;/a>&lt;/p></description></item><item><title>Projects</title><link>https://0125nia.github.io/projects/</link><pubDate>Wed, 12 Feb 2025 00:33:15 +0800</pubDate><guid>https://0125nia.github.io/projects/</guid><description>&lt;hr>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" ./mercury" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/project/mercury_temp.png"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Mercury - 手写im系统 - Go&lt;/p>
+ 
+&lt;/div>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" ./mit65840" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/project/65840.png"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">mit6.5840(mit6.824) - 分布式系统 - Go&lt;/p>
+ 
+&lt;/div>
+&lt;div style="display: inline-block; padding: 10px;">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;a href=" ./interpreter" target="_blank">
+ &lt;img src="https://0125nia.github.io/img/project/interpreter.png"
+ style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
+ &lt;/a>
+ 
+ 
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Interpreter for lox - Rust&lt;/p>
+ 
+&lt;/div>
 &lt;div style="display: inline-block; padding: 10px;">
  
  
@@ -13,26 +74,7 @@
  &lt;/a>
  
  
- &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">EchoDispatch - 消息推送系统&lt;/p>
- 
-&lt;/div>
-&lt;div style="display: inline-block; padding: 10px;">
- 
- 
- 
- 
- 
-
- 
- &lt;a href=" ./find_me" target="_blank">
- &lt;img src="https://0125nia.github.io/img/project/find_me.png"
- style="width: 300px; height: 150px; object-fit: cover; border-radius: 10px;">
- &lt;/a>
- 
- 
- &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">Find Me - 自我成长类平台&lt;/p>
- 
-&lt;/div></description></item><item><title/><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;a href="https://0125nia.github.io/hide/nav/#Nav" style="text-decoration: none;">
+ &lt;p style="text-align: center; margin-top: 5px; font-size: 14px;">EchoDispatch - 消息推送系统 - Java&lt;/p></description></item><item><title/><link>https://0125nia.github.io/hide/nav/</link><pubDate>Sat, 08 Feb 2025 18:52:50 +0800</pubDate><guid>https://0125nia.github.io/hide/nav/</guid><description>&lt;a href="https://0125nia.github.io/hide/nav/#Nav" style="text-decoration: none;">
  &lt;h1 id="Nav" class="bonkers-font" style="font-size: 1.5em;">
  
  Nav
@@ -95,6 +137,52 @@
  
  &lt;a class="hover_link_l" href=" ./../rust_study" target="_blank">
  rust study
+ &lt;/a>
+&lt;/div>
+
+&lt;style>
+ 
+ 
+ .hover_link_l {
+ text-decoration: none;
+ font-size: 1.5em;
+ }
+
+ 
+ .hover_link_l {
+ color: inherit;
+ line-height: 2;
+ position: relative;
+ }
+
+ .hover_link_l::before {
+ content: '';
+ width: 0;
+ height: 2px;
+ border-radius: 2px;
+ background-color: currentColor;
+ position: absolute;
+ bottom: -.25rem;
+ right: 0;
+ transition: right .5s, width .5s, left .5s;
+ }
+
+ .hover_link_l:hover {
+ color: inherit;
+ }
+
+ .hover_link_l:hover::before {
+ width: 100%;
+ left: 0;
+ }
+&lt;/style>
+
+&lt;div style="padding: 10px;">
+ 
+ 
+ 
+ &lt;a class="hover_link_l" href=" ./../go_study" target="_blank">
+ golang study
  &lt;/a>
 &lt;/div>
 
@@ -344,7 +432,7 @@ Mais il n’y a rien d’extraordinaire ici.
 
  &lt;/h1>
 &lt;/a>
-&lt;p>As a college student majoring in computer science, I have experience with &lt;strong>Java&lt;/strong>, &lt;strong>Go&lt;/strong>, &lt;strong>C&lt;/strong>, &lt;strong>C++&lt;/strong>, and &lt;strong>Rust&lt;/strong>. Currently, I prefer coding with &lt;strong>Go&lt;/strong> and &lt;strong>Rust&lt;/strong>.&lt;/p></description></item><item><title>Rust_study</title><link>https://0125nia.github.io/hide/rust_study/</link><pubDate>Sat, 08 Feb 2025 16:28:20 +0800</pubDate><guid>https://0125nia.github.io/hide/rust_study/</guid><description>&lt;blockquote>
+&lt;p>As a college student majoring in computer science, I have experience with &lt;strong>Java&lt;/strong>, &lt;strong>Go&lt;/strong>, &lt;strong>C&lt;/strong>, &lt;strong>C++&lt;/strong>, and &lt;strong>Rust&lt;/strong>. Currently, I prefer coding with &lt;strong>Go&lt;/strong> and &lt;strong>Rust&lt;/strong>.&lt;/p></description></item><item><title>Go_study</title><link>https://0125nia.github.io/hide/go_study/</link><pubDate>Sat, 08 Feb 2025 16:28:20 +0800</pubDate><guid>https://0125nia.github.io/hide/go_study/</guid><description>&lt;p>&lt;a href="https://go.dev/tour/welcome/1">https://go.dev/tour/welcome/1&lt;/a>&lt;/p></description></item><item><title>Rust_study</title><link>https://0125nia.github.io/hide/rust_study/</link><pubDate>Sat, 08 Feb 2025 16:28:20 +0800</pubDate><guid>https://0125nia.github.io/hide/rust_study/</guid><description>&lt;blockquote>
 &lt;p>&lt;em>A language empowering everyone to build reliable and efficient software.&lt;/em>&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="入门">入门&lt;/h3>
@@ -704,4 +792,12 @@ I find them very enjoyable and relaxing to use.&lt;/p>
 &lt;p>通过内嵌SDK的方式接入短信、邮箱等渠道实现统一的接口发送各种类型消息，记录消息的发送情况，对消息生命周期全链路追踪。使用消费组实现消息资源的隔离，不同的渠道中的不同消息类型互不影响。&lt;/p>
 &lt;/blockquote></description></item><item><title>Find Me</title><link>https://0125nia.github.io/projects/find_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/find_me/</guid><description>&lt;blockquote>
 &lt;p>一个帮助用户了解自我、认识自我、完善自我的“自我成长类平台”，旨在为用户提供自我探索、职业测试、星星交流区、匹配交流、成长星球、职业学习路线推荐、ToBingo计划等服务，一站式满足多样化的自我成长需求&lt;/p>
+&lt;/blockquote></description></item><item><title>Interpreter for lox</title><link>https://0125nia.github.io/projects/interpreter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/interpreter/</guid><description>&lt;blockquote>
+&lt;p>一个使用Rust编写的lox语言解释器&lt;/p>
+&lt;/blockquote>
+&lt;p>待续&amp;hellip;&lt;/p></description></item><item><title>Mercury</title><link>https://0125nia.github.io/projects/mercury/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/mercury/</guid><description>&lt;blockquote>
+&lt;p>手写的im系统，目标是能够处理百亿级消息量
+自研网关及ipconfig，作为im系统的接入层&lt;/p>
+&lt;/blockquote></description></item><item><title>mit6.5840</title><link>https://0125nia.github.io/projects/mit65840/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0125nia.github.io/projects/mit65840/</guid><description>&lt;blockquote>
+&lt;p>MIT6.5840(MIT 6.824) 是麻省理工学院（MIT）开设的一门分布式系统（Distributed Systems）课程&lt;/p>
 &lt;/blockquote></description></item></channel></rss>
