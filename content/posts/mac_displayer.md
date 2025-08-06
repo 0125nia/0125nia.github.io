@@ -1,8 +1,5 @@
 ---
 date: 2025-06-07T16:56:15+08:00
-# description: ""
-# image: ""
-# lastmod: 2024-07-03
 showTableOfContents: true
 tags: ["mac"]
 title: "安卓平板作为Mac M4 mini 唯一显示屏"

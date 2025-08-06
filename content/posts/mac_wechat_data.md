@@ -1,8 +1,5 @@
 ---
 date: 2025-07-28T20:34:01+08:00
-# description: ""
-# image: ""
-# lastmod: 2024-07-03
 showTableOfContents: true
 tags: ["mac"]
 title: "微信 Mac 版数据迁移到移动硬盘中"
