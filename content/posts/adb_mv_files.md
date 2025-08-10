@@ -107,6 +107,8 @@ adb push ~/Desktop/a  /storage/emulated/0/Android/data/com.aaa.bbb/files/
 
 用此方式可以显示移动的进度，更为直观
 
+![adb push](/img/post/adb_loading.png)
+
 同样的，使用以下命令检查是否移动成功
 
 ```bash
