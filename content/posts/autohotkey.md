@@ -6,7 +6,7 @@ title: "AutoHotkey绑定按键模拟键鼠操作"
 type: "post"
 ---
 
-工作中快速简易的
+工作中快速简易的鼠标点击脚本
 
 下载 [autohotkey](www.autohotkey.com)
 版本为 2.0.19
