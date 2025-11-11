@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 avatarURL = "/avatar.webp"
 accentColor = "#FF4D4D"
 avatarSize = "size-m"
-description = "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué."
+description = "Je pense, donc, je suis."
 footer = "nia"
 socialIcons = [{ name = "email", url = "mailto:nia220125@163.com" }]
 [menu]
