@@ -5,3 +5,5 @@ attachment
 .hugo_build.lock
 
 public
+
+.sh
