@@ -1,7 +1,7 @@
 ---
 date: 2025-08-08T23:13:12+08:00
 showTableOfContents: true
-tags: ["android", "adb", "file"]
+tags: ["android", "adb", "file", "mac"]
 title: "使用 adb 操作 Android 文件"
 type: "post"
 ---

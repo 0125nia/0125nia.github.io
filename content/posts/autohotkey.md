@@ -1,7 +1,7 @@
 ---
 date: 2025-07-16T01:36:51+08:00
 showTableOfContents: true
-tags: ["mac", "hotkey"]
+tags: ["hotkey"]
 title: "AutoHotkey绑定按键模拟键鼠操作"
 type: "post"
 ---
